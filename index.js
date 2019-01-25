@@ -2,6 +2,6 @@
 
 function findMatching(drivers, string) { 
   return drivers.filter(function(name) {
-    return string === name; 
+    return string.toUpperCase() === name.toUpperCase(); 
   });
 }
