@@ -6,4 +6,4 @@ function findMatching(drivers, string) {
   });
 }
 
-function findMatching(drivers, string) 
+function fuzzyMatch(drivers, string) 
