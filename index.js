@@ -8,6 +8,6 @@ function findMatching(drivers, string) {
 
 function fuzzyMatch(drivers, string){ 
  return drivers.filter(function(letters){ 
-   return letters.
- }) 
+   return letters.slice(0, string.length) === string
+ }); 
 }
